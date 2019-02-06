@@ -4,7 +4,8 @@
 
   
     $('.navigation').singlePageNav({
-        currentClass : 'active'
+        currentClass : 'active',
+        filter: ':not(.external)',
     });
 
 
@@ -16,6 +17,7 @@
 
 
 })(jQuery);
+
 
 
 
