@@ -68,7 +68,7 @@ footer,
 form,
 h1,
 h2,
-h3,
+/* h3, */
 h4,
 h5,
 h6,
@@ -959,4 +959,45 @@ h3.profile-title {
     width: 1em;
     text-align: center;
     margin-right: .2em
+}
+
+
+
+/* Talks */
+
+
+@media screen and (max-width:567px) {
+    .timeline.talks-timeline .timeline_element {
+        border-top: 1px solid #ddd
+    }
+}
+
+.timeline.talks-timeline .timeline_element-date {
+    width: 150px
+}
+
+@media screen and (max-width:567px) {
+    .timeline.talks-timeline .timeline_element-date {
+        display: block;
+        width: auto;
+        position: static;
+        padding: 0;
+        border: none
+    }
+    .timeline.talks-timeline .timeline_element-date:after {
+        display: none
+    }
+}
+
+.timeline.talks-timeline .timeline_element-contents {
+    margin-left: 180px
+}
+
+@media screen and (max-width:567px) {
+    .timeline.talks-timeline .timeline_element-contents {
+        margin-left: 0;
+        border: none;
+        padding-top: .5em !important;
+        padding-bottom: 1em
+    }
 }
