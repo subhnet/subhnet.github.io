@@ -8,9 +8,6 @@ import ResponsiveNav from './../containers/ResponsiveNav';
 
 const Layout = (props) => {
     return (
-        //   <header className="App-header">
-        //   Test
-        // </header> 
         <Auxilary>
             <ResponsiveNav />
             <SideNav />

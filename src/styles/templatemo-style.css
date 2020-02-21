@@ -831,7 +831,7 @@ h3.profile-title {
 }
 
 .portfolio-timeline .project-text {
-    width: 50%;
+    /* width: 50%; */
     float: left
 }
 

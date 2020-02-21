@@ -59,11 +59,57 @@ const HomePage = () => {
                     >
                         <p>Adobe</p>
                         <strong>Working as a Full Stack Developer at Adobe</strong>
-
+                        <ul>
+                            <b>Automation Framework</b>
+                            <li>
+                                Designed and developed an Automation Framework which automates the setup of Adobe Analytics,Launch and Target
+                                for a Website.
+                            </li>
+                            <li>
+                                Developed both frontend and backend architecture of Microservices using <span className="blue">ExpressJS</span>, <span className="blue">Node.js</span> and <span className="blue">ReactJS</span> Framework.
+                            </li>
+                            <li>
+                                Containeratized the whole application using <span className="blue">Docker</span> and <span className="blue">Docker-compose</span>.
+                            </li>
+                            <li>
+                                The Automation Framework brought down the Consoluntant Efforts by 90% and Is used across teams.
+                            </li>
+                            <li>
+                                Integration with AdobeIO and JWT Autherization
+                            </li>
+                            <b>Survey Tool Engineering Architect Team Project</b>
+                            <li>
+                                Developed end to end for a survey utility to track the response of customers and generate analysis report.
+                            </li>
+                            <li>
+                                Developed the backend in spring-boot and ReactJS as the FrontEnd.
+                            </li>
+                            <li>
+                                Database model design and design of application architecture in NodeJs and MongoDB.
+                            </li>
+                            <b><span className="black">Marriott Engagement Dashboard </span></b>
+                            <li>
+                                Developed a custom dashboard for Marriott which shows the real-time digital traffic in Map.
+                            </li>
+                            <li>
+                                Integration with Adobe Analytics Reporting API.
+                            </li>
+                            <li>
+                                Created a page showing various chart (line chart,column chart and Map) to show comparision of traffic to the
+                                marriot website.
+                            </li>
+                            <li>
+                                Developed a PlunkQueue framework which was useful to show map plunks in a smooth flow.
+                            </li>
+                            <li>
+                                Worked closely with architect and executed the architectural changes that can optimize the performance of the
+                                page.
+                            </li>
+                        </ul>
                     </ExperienceItem>
                     <ExperienceItem
                         title="Fidelity Investments"
-                        timeline="March,2017 - May,2019"
+                        timeline="March,2017 May,2019"
                         designation="Software Engineer"
                         logo={fidelityLogo}
                         techstack={fidelityTechStack}
@@ -108,7 +154,7 @@ const HomePage = () => {
                     </ExperienceItem>
                     <ExperienceItem
                         title="Wipro"
-                        timeline="April,2016 - Feb,2017"
+                        timeline="April,2016 Feb,2017"
                         designation="Project Engineer"
                         logo={wiproLogo}
                         techstack={wiproTechStack}
