@@ -8,7 +8,7 @@ const About = props => {
                 <h4 className="widget-title">Learn About Me</h4>
                 I am a <b>full stack developer</b> with over <b>five years of experience</b>
                 <ul>
-                    <li> I have an extensive hands-on experience and expertise in design, development and implementation of enterprise products
+                    <li>Extensive hands-on experience and expertise in design, development and implementation of enterprise products
                         using Java/J2EE Technologies.
                        <b> Angular,ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
                     JPA.</li>
