@@ -55,7 +55,7 @@ export const ExperienceItem = props => {
                             <img src={props.logo} alt="Adobe" height="70" width="70" />
                         </div>
                         <div className="project-title">{props.title}</div>
-                        <div className="project-subtitle"></div>
+                        <div className="project-subtitle">{props.designation}</div>
                     </ProjectSection>
                     <ProjectSection section="project-description">
                         {props.children}

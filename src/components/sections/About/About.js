@@ -13,7 +13,7 @@ const About = props => {
                        <b> Angular,ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
                     JPA.</li>
                     <li>Frontend Development using <span className="blue">ReactJS, Angular 4,Jquery,JavaScript</span></li>
-                    <li>Work Experience in working with Containerization Technologies like <b>Docker</b>, <b>Docker Compose</b></li>
+                    <li>Experience working with Containerization Technologies like <b>Docker</b>, <b>Docker Compose</b></li>
                     <li>Having Sound knowledge in OOPs ,Data Structures, and design patterns.</li>
                     <li>Good Analytics skills and quick Learner.</li>
                     <li>Knowlegde in <span className="blue"><a href="https://golang.org/">Go Programming
