@@ -8,12 +8,12 @@ const About = props => {
                 <h4 className="widget-title">Learn About Me</h4>
                 I am a <b>full stack developer</b> with over <b>five years of experience</b>
                 <ul>
-                    <li> I have an extensive hands-on experience and expertise in working with
-                    <b>Java/J2EE,
-                        Angular,ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
+                    <li> I have an extensive hands-on experience and expertise in design, development and implementation of enterprise products
+                        using Java/J2EE Technologies.
+                       <b> Angular,ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
                     JPA.</li>
-                    <li>Frontend Development using <span className="blue">Angular 4,Jquery,JavaScript</span></li>
-                    <li>Worked with Docker, Docker Compose</li>
+                    <li>Frontend Development using <span className="blue">ReactJS, Angular 4,Jquery,JavaScript</span></li>
+                    <li>Work Experience in working with Containerization Technologies like <b>Docker</b>, <b>Docker Compose</b></li>
                     <li>Having Sound knowledge in OOPs ,Data Structures, and design patterns.</li>
                     <li>Good Analytics skills and quick Learner.</li>
                     <li>Knowlegde in <span className="blue"><a href="https://golang.org/">Go Programming
@@ -25,9 +25,8 @@ const About = props => {
                 </li>
 
                     <li>
-                        My current toolset includes Java,J2EE, Spring, Restful WebServices, Angular, TypeScript and all the
-                        other various
-                        frameworks, libraries and technologies related to them.
+                        My current toolset includes ReactJS,J2EE, SpringBoot, Restful WebServices, Angular, NodeJS TypeScript and all the
+                        other various frameworks, libraries and technologies related to them.
                 </li>
                 </ul>
             </div>

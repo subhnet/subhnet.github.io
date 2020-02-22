@@ -17,7 +17,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const HomePage = () => {
 
     let wiproTechStack = [
-        { URL: "https://angular.io/", name: "JavaScript" }
+        { URL: "https://angular.io/", name: "JavaScript" },
+        { URL: "https://angular.io/", name: "JAVA-J2EE" }
     ]
 
     let adobeTechStack = [
@@ -45,9 +46,7 @@ const HomePage = () => {
     ]
     return (
         <Auxilary>
-            <PageSection id="about">
-                <About />
-            </PageSection>
+            <PageSection id="about"><About /></PageSection>
             <PageSection title="Work Experience" id="experience">
                 <Experience>
                     <ExperienceItem
@@ -60,51 +59,24 @@ const HomePage = () => {
                         <p>Adobe</p>
                         <strong>Working as a Full Stack Developer at Adobe</strong>
                         <ul>
-                            <b>Automation Framework</b>
-                            <li>
-                                Designed and developed an Automation Framework which automates the setup of Adobe Analytics,Launch and Target
-                                for a Website.
-                            </li>
-                            <li>
-                                Developed both frontend and backend architecture of Microservices using <span className="blue">ExpressJS</span>, <span className="blue">Node.js</span> and <span className="blue">ReactJS</span> Framework.
-                            </li>
-                            <li>
-                                Containeratized the whole application using <span className="blue">Docker</span> and <span className="blue">Docker-compose</span>.
-                            </li>
-                            <li>
-                                The Automation Framework brought down the Consoluntant Efforts by 90% and Is used across teams.
-                            </li>
-                            <li>
-                                Integration with AdobeIO and JWT Autherization
-                            </li>
-                            <b>Survey Tool Engineering Architect Team Project</b>
-                            <li>
-                                Developed end to end for a survey utility to track the response of customers and generate analysis report.
-                            </li>
-                            <li>
-                                Developed the backend in spring-boot and ReactJS as the FrontEnd.
-                            </li>
-                            <li>
-                                Database model design and design of application architecture in NodeJs and MongoDB.
-                            </li>
                             <b><span className="black">Marriott Engagement Dashboard </span></b>
-                            <li>
-                                Developed a custom dashboard for Marriott which shows the real-time digital traffic in Map.
-                            </li>
-                            <li>
-                                Integration with Adobe Analytics Reporting API.
-                            </li>
-                            <li>
-                                Created a page showing various chart (line chart,column chart and Map) to show comparision of traffic to the
-                                marriot website.
-                            </li>
-                            <li>
-                                Developed a PlunkQueue framework which was useful to show map plunks in a smooth flow.
-                            </li>
-                            <li>
-                                Worked closely with architect and executed the architectural changes that can optimize the performance of the
-                                page.
-                            </li>
+                            <li>Build executive-focused analytical dashboards for Adobe's top digital marketing clients. Used technologies such as AngularJS/ReactJS/PHP/MySQL.</li>
+                            <li>Worked closely with costomers and UX teams to build a solution that is meaningful to the costomer.</li>
+                            <li>Developed a custom dashboard for Marriott which shows the real-time digital traffic in Map.</li>
+                            <li>Integration with Adobe Analytics Reporting API.</li>
+                            <li>Created a page showing various chart (line chart,column chart and Map) to show comparision of traffic to the marriot website.</li>
+                            <li>Developed a PlunkQueue framework which was useful to show map plunks in a smooth flow.</li>
+                            <li>Worked closely with architect and executed the architectural changes that can optimize the performance of the page.</li>
+                            <b>Automation Framework</b>
+                            <li>Designed and developed an Automation Framework which automates the setup of Adobe Analytics,Launch and Target for a Website.</li>
+                            <li>Developed both frontend and backend architecture of Microservices using <span className="blue">ExpressJS</span>, <span className="blue">Node.js</span> and <span className="blue">ReactJS</span> Framework.</li>
+                            <li>Containeratized the whole application using <span className="blue">Docker</span> and <span className="blue">Docker-compose</span> and deployed in server.</li>
+                            <li>The Automation Framework brought down the Consoluntant Efforts by 90% and Is used across teams.</li>
+                            <li>Integration with AdobeIO and JWT Autherization</li>
+                            <b>Survey Tool Engineering Architect Team Project</b>
+                            <li>Developed end to end for a survey utility to track the response of customers and generate analysis report.</li>
+                            <li>Developed the backend in spring-boot and ReactJS as the FrontEnd.</li>
+                            <li>Database model design and design of application architecture in NodeJs and MongoDB.</li>
                         </ul>
                     </ExperienceItem>
                     <ExperienceItem
@@ -114,21 +86,16 @@ const HomePage = () => {
                         logo={fidelityLogo}
                         techstack={fidelityTechStack}
                     >
-                        <p>Fidelity Investments offers fund distribution and investment advice,
-                               retirement services, wealth management,
-                               securities execution and clearance, and life insurance.</p>
-
+                        <p>Fidelity Investments offers fund distribution and investment advice, retirement services, wealth management,securities execution and clearance, and life insurance.</p>
                         <strong>Working as a Software Engineer at Fidelity Investments</strong>
                         <p>
                             My Responsibilities include upgrading the code base to <span className="blue">Angular</span>
-                            UI and
-                            Back-end in <span className="blue">Restful </span> Services.
+                            UI and Back-end in <span className="blue">Restful </span> Services.
                                     Developing testable, reusable and maintainable components/services,
                                     integrating Restful API’s
                         </p>
                         <ul>
-                            <li>We built a Table component framework for eTax Application and
-                                I worked on developing the UI components focusing on its
+                            <li>We built a Table component framework for eTax Application and I worked on developing the UI components focusing on its
                                 stability ,which made rendering of dynamic
                                 content customizable. Now,Other teams across BU uses this
                                     framework .</li>
@@ -163,11 +130,8 @@ const HomePage = () => {
                         <ul>
                             <li>Shipment application which possess the operations in domestic and
                                 international courier services.</li>
-                            <li>Handle end to end process starting from initiating a courier order,
-                                pickup
-                                and delivery.</li>
-                            <li>Provide customer features like finding nearby service station for
-                                pickup
+                            <li>Handle end to end process starting from initiating a courier order,pickup and delivery.</li>
+                            <li>Provide customer features like finding nearby service station for pickup
                                 and delivery (integration with Google API), Transit time,
                                 scheduling a
                                 pickup, booking a shipment and Track a shipment.</li>
@@ -175,12 +139,8 @@ const HomePage = () => {
                     </ExperienceItem>
                 </Experience>
             </PageSection>
-            <PageSection id="blogs">
-                <Blogs />
-            </PageSection>
-            <PageSection title="Contact" id="contact">
-                <Contacts />
-            </PageSection>
+            <PageSection id="blogs"><Blogs /></PageSection>
+            <PageSection title="Contact" id="contact"><Contacts /></PageSection>
         </Auxilary>
     );
 }

@@ -165,17 +165,6 @@ blockquote:before {
     content: none
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0
-}
-
-html {
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
-}
-
 audio,
 canvas,
 video {
@@ -191,73 +180,7 @@ audio:not([controls]) {
     display: block
 }
 
-sub,
-sup {
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline
-}
 
-sup {
-    top: -.5em
-}
-
-sub {
-    bottom: -.25em
-}
-
-img {
-    border: 0;
-    -ms-interpolation-mode: bicubic
-}
-
-button,
-input,
-select,
-textarea {
-    font-size: 100%;
-    margin: 0;
-    vertical-align: baseline
-}
-
-button,
-input {
-    line-height: normal
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0
-}
-
-button,
-input[type=submit],
-input[type=button],
-input[type=reset] {
-    cursor: pointer;
-    -webkit-appearance: button
-}
-
-input[type=search] {
-    -webkit-appearance: textfield
-}
-
-input[type=search]:-webkit-search-decoration {
-    -webkit-appearance: none
-}
-
-textarea {
-    overflow: auto;
-    vertical-align: top
-}
-
-body {
-    line-height: 24px;
-    font: 16px/1.6 Roboto, Helvetica, sans-serif;
-    font-weight: 300;
-    overflow-x: hidden
-}
 
 .welcome-text h2,
 h3.profile-title,
@@ -312,6 +235,7 @@ h5 {
 }
 
 @media screen and (max-width:1290px) {
+
     .banner-bg,
     .main-content {
         width: 70%
@@ -323,10 +247,12 @@ h5 {
 }
 
 @media screen and (max-width:992px) {
+
     .banner-bg,
     .main-content {
         width: 100%
     }
+
     .content-wrapper {
         padding: 0 30px
     }
@@ -452,9 +378,11 @@ h3.profile-title {
         margin-top: 10px;
         display: none
     }
+
     .responsive-header p {
         color: #fff
     }
+
     .responsive-header .profile-image {
         float: left;
         width: 100px;
@@ -464,17 +392,21 @@ h3.profile-title {
         overflow: hidden;
         margin-right: 30px
     }
+
     .responsive-header .profile-content {
         text-align: left;
         margin-top: 30px;
         overflow: hidden
     }
+
     .top-section {
         padding-bottom: 0
     }
+
     .main-navigation a {
         padding: 10px
     }
+
     .main-navigation a.active,
     .main-navigation a:hover {
         background: #5f6d7e !important
@@ -520,14 +452,16 @@ h3.profile-title {
 }
 
 .welcome-text h2 {
-    font-size: 45px;
+    font-size: 48px;
     color: #fff;
-    margin-bottom: 30px
+    /* margin-bottom: 30px; */
+    line-height: 77px;
 }
 
 .welcome-text h5 {
-    font-size: 22px;
-    color: #fff
+    font-size: 36px;
+    color: #fff;
+    line-height: 58px;
 }
 
 .main-content ul {
@@ -681,6 +615,7 @@ h3.profile-title {
         padding-top: 15px !important;
         margin-top: 15px !important
     }
+
     .timeline_element-date {
         color: #999
     }
@@ -700,6 +635,7 @@ h3.profile-title {
         line-height: 30px;
         border-right: 1px solid #ddd
     }
+
     .timeline_element-date:after {
         content: " ";
         position: absolute;
@@ -710,15 +646,18 @@ h3.profile-title {
         height: 5px;
         background-color: rgba(187, 30, 30, .8)
     }
+
     .timeline_element:first-child .timeline_element-date {
         padding-top: 0;
         line-height: 1.5;
         margin-top: 10px
     }
+
     .timeline_element:first-child .timeline_element-date .timeline_element-date-text {
         margin-top: -10px;
         display: block
     }
+
     .timeline_element:first-child .timeline_element-date:after {
         top: 0
     }
@@ -735,6 +674,7 @@ h3.profile-title {
         margin-left: 0;
         padding: 15px 0 0
     }
+
     .timeline.talks-timeline .timeline_element {
         border-top: 1px solid #ddd
     }
@@ -744,19 +684,23 @@ h3.profile-title {
     .timeline_element+.timeline_element .timeline_element-contents {
         border-top: 1px solid #ddd
     }
+
     .timeline.portfolio-timeline .timeline_element:first-child .timeline_element-contents,
     .timeline_element:first-child .timeline_element-contents {
         padding-top: 0
     }
+
     .timeline.portfolio-timeline .timeline_element:first-child .timeline_element-date {
         padding-top: 0;
         line-height: 1.5;
         margin-top: 10px
     }
+
     .timeline.portfolio-timeline .timeline_element:first-child .timeline_element-date .timeline_element-date-text {
         margin-top: -10px;
         display: block
     }
+
     .timeline.portfolio-timeline .timeline_element:first-child .timeline_element-date:after {
         top: 0
     }
@@ -778,9 +722,11 @@ h3.profile-title {
         padding: 0;
         border: none
     }
+
     .timeline.talks-timeline .timeline_element-date:after {
         display: none
     }
+
     .timeline.talks-timeline .timeline_element-contents {
         margin-left: 0;
         border: none;
@@ -984,6 +930,7 @@ h3.profile-title {
         padding: 0;
         border: none
     }
+
     .timeline.talks-timeline .timeline_element-date:after {
         display: none
     }
