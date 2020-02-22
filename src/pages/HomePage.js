@@ -28,7 +28,8 @@ const HomePage = () => {
         { URL: "https://angular.io/", name: "MySQL" },
         { URL: "https://angular.io/", name: "Docker" },
         { URL: "https://angular.io/", name: "NGINX" },
-        { URL: "https://angular.io/", name: "Apache Tomcat 7" }
+        { URL: "https://angular.io/", name: "Apache Tomcat 7" },
+        { URL: "https://angular.io/", name: "SpringBoot" },
     ]
 
     let fidelityTechStack = [
@@ -81,7 +82,7 @@ const HomePage = () => {
                     </ExperienceItem>
                     <ExperienceItem
                         title="Fidelity Investments"
-                        timeline="March,2017 May,2019"
+                        timeline="March,2017 - May,2019"
                         designation="Software Engineer"
                         logo={fidelityLogo}
                         techstack={fidelityTechStack}
@@ -121,7 +122,7 @@ const HomePage = () => {
                     </ExperienceItem>
                     <ExperienceItem
                         title="Wipro"
-                        timeline="April,2016 Feb,2017"
+                        timeline="April,2016 - Feb,2017"
                         designation="Project Engineer"
                         logo={wiproLogo}
                         techstack={wiproTechStack}
