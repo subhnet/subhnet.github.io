@@ -1,7 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Nav } from '../components/Navigation/Nav'
+import { NavItem } from './../components/Navigation/Nav';
+import PDF from "../assets/doc/SubhransuMaharana_Resume_5.4.pdf";
+import $ from 'jquery';
 
 const ResponsiveNav = props => {
+
+    const toggleMenu = () => {
+        $('.responsive-menu').stop(true, true).slideToggle();
+        return false;
+    }
     return (
         <div className="responsive-header visible-xs visible-sm">
             <div className="container">
@@ -18,16 +27,17 @@ const ResponsiveNav = props => {
                         </div>
                     </div>
                 </div>
-                <a href="#" className="toggle-menu"><i className="fa fa-bars"></i></a>
+                <a href="#" className="toggle-menu" onClick={toggleMenu}><i className="fa fa-bars"></i></a>
                 <div className="main-navigation responsive-menu">
-                    <ul className="navigation">
-                        <li><a href="#top"><i className="fa fa-globe"></i>Welcome</a></li>
-                        <li><a href="#about"><i className="fa fa-pencil"></i>About Me</a></li>
-                        <li><a href="#experience"><i className="fa fa-angellist"></i>Work Experience</a></li>
-                        <li><a href="#blogs"><i className="fa fa-paperclip"></i>Blogs</a></li>
-                        <li><a href="doc/resume.pdf" target="_blank" className="external"><i className="fa fa-file"></i>My CV</a></li>
-                        <li><a href="#contact"><i className="fa fa-link"></i>Contact Me</a></li>
-                    </ul>
+                    <Nav>
+                        <NavItem iconCLass="fa fa-globe" link="top">Welcome</NavItem>
+                        <NavItem iconCLass="fa fa-pencil" link="about">About Me</NavItem>
+                        <NavItem iconCLass="fa fa-angellist" link="experience">Work Experience</NavItem>
+                        <NavItem iconCLass="fa fa-paperclip" link="blogs">Blogs</NavItem>
+                        {/* <NavItem iconCLass="fa fa-file"      link={PDF} target = "_blank">My CV</NavItem> */}
+                        <li className="nav-items"><a href={PDF} target="_blank"><i className="fa fa-file"></i>My CV</a></li>
+                        <NavItem iconCLass="fa fa-link" link="contact">Contact Me</NavItem>
+                    </Nav>
                 </div>
             </div>
         </div>
