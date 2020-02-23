@@ -65,6 +65,10 @@ module.exports = {
             {
                 test: /\.(png|jpe?g|gif)$/,
                 loader: 'url-loader?limit=10000&name=img/[name].[ext]'
+            },
+            {
+                test: /\.(pdf)$/,
+                loader: 'file-loader?name=[path][name].[ext]'
             }
         ]
     },
