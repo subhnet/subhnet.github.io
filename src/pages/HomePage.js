@@ -90,12 +90,11 @@ const HomePage = () => {
                         designation={(<strong>Software Engineer</strong>)}
                     >
                         {/* <p>Fidelity Investments offers fund distribution and investment advice, retirement services, wealth management,securities execution and clearance, and life insurance.</p> */}
-                        
+
                         <div className="project-responsibility">
 
                             <p>
-                                My Responsibilities include upgrading the code base to <span className="blue">Angular</span>
-                                UI and Back-end in <span className="blue">Restful </span> Services.
+                                My Responsibilities include upgrading the code base to <span className="blue">Angular</span> UI and Back-end in <span className="blue">Restful </span> Services.
                                         Developing testable, reusable and maintainable components/services,
                                         integrating Restful API’s
                             </p>
@@ -135,13 +134,14 @@ const HomePage = () => {
                         designation={(<strong>Project Engineer</strong>)}
                     >
                         <ul>
-                            <li>Shipment application which possess the operations in domestic and
-                                international courier services.</li>
-                            <li>Handle end to end process starting from initiating a courier order,pickup and delivery.</li>
-                            <li>Provide customer features like finding nearby service station for pickup
-                                and delivery (integration with Google API), Transit time,
-                                scheduling a
-                                pickup, booking a shipment and Track a shipment.</li>
+                            <span className="project-sub-title black">Bluedart Website Revamp</span>
+                            <li>Was a key contributer to the revamp of the Bluedart website - A shipment application which possess the operations in domestic and
+                                international courier services which handled end to end process starting from initiating a courier order,pickup and delivery.</li>
+                            <li>Provided customer features like finding nearby service station for pickup and delivery (integration with Google API), Transit time,
+                                scheduling a pickup, booking a shipment and Track a shipment.</li>
+                            <li>Developed of SOAP-based Web Services (bottom-up) which internally consumes various third-party vendors and also calls Oracle stored procedures.</li>
+                            <li> <span className="blue">Google Map API </span> Integration with shortest path implementation</li>
+                            <li>Worked on Module end to end (UI layer using LiferayAUI, Controllers and Client Stub using axis2 implementation)</li>
                         </ul>
                     </ExperienceItem>
                 </Experience>

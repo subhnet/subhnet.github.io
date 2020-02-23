@@ -291,9 +291,10 @@ hr {
   width: 22%;
   height: 100%;
   position: fixed;
-  background-color: #555b63;
+  background-color: #313335;
   color: #fff;
   overflow-y: hidden;
+  background-image: url("../assets/img/black-twill.png");
 }
 
 @media screen and (max-width: 1290px) {
@@ -357,7 +358,7 @@ h3.profile-title {
 
 .main-navigation li a.active,
 .main-navigation li a.active:hover {
-  background: #495461;
+  background: #1b2026;
 }
 
 .social-icons {
