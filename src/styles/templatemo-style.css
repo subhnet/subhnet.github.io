@@ -380,8 +380,10 @@ h3.profile-title {
 }
 
 .responsive-header {
-  background: #5f6d7e;
+  /* background: #5f6d7e; */
   text-align: center;
+  background-color: #313335;
+  background-image: url("../assets/img/black-twill.png");
 }
 
 @media screen and (max-width: 992px) {
