@@ -9,11 +9,12 @@ const About = props => {
                 I am a <b>full stack developer</b> with over <b>five years of experience</b>
                 <ul>
                     <li>Extensive hands-on experience and expertise in design, development and implementation of enterprise products
-                        using Java/J2EE Technologies.
-                       <b> Angular,ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
+                        using <b>Java/J2EE Technologies, Angular,ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
                     JPA.</li>
-                    <li>Frontend Development using <span className="blue">ReactJS, Angular 4,Jquery,JavaScript</span></li>
+                    <li>Front-end: <span className="blue">React (with Hooks), Angular 4,Jquery,JavaScript, Typescript</span></li>
+                    <li>Back-end: Java/J2EE Technologies,Spring, SpringBoot, NodeJS, ExpressJS </li>
                     <li>Experience working with Containerization Technologies like <b>Docker</b>, <b>Docker Compose</b></li>
+                    <li>Knowlegde in cloud based technologies: <span className="blue">AWS</span> and <span className="blue">GCP</span></li>
                     <li>Having Sound knowledge in OOPs ,Data Structures, and design patterns.</li>
                     <li>Good Analytics skills and quick Learner.</li>
                     <li>Knowlegde in <span className="blue"><a href="https://golang.org/">Go Programming
