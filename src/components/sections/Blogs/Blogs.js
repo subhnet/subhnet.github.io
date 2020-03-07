@@ -35,6 +35,28 @@ const Blogs = props => {
                             </div>
                         </li>
 
+                        <li className="timeline_element talk">
+                            <div className="timeline_element-date">
+                                <time className="timeline_element-date-text">01 Mar 2020</time>
+                            </div>
+
+                            <div className="timeline_element-contents">
+                                <h3 className="talk-title">
+                                    <b>Dockerizing Reactjs, nodejs and nginx server</b>
+                                </h3>
+
+                                <div className="talk-buttons">
+                                    <a target="_blank" href="https://dev.to/subhransu/nevertheless-subhransu-maharana-coded-5eam"
+                                        className="button button-red">
+                                        <i className="fa fa-file-text-o"></i>
+                                        Read article
+                            </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
                     </ul>
                 </div>
             </div>
