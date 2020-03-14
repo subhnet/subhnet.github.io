@@ -21,12 +21,12 @@ const Contacts = props => {
                                         subhransumaharana@gmail.com</a>
                                 </dd>
 
-                                <dt>&nbsp;</dt>
-                                <dd></dd>
+                                {/* <dt>&nbsp;</dt>
+                                <dd></dd> */}
 
                                 <dt>LinkedIn:</dt>
                                 <dd>
-                                    <a href="https://www.linkedin.com/in/subhransu-maharana-70831166/"><i className="icon fa fa-linkedin"></i>
+                                    <a href="https://www.linkedin.com/in/smaharan/"><i className="icon fa fa-linkedin"></i>
                                         Subhransu</a>
                                 </dd>
 
@@ -46,6 +46,13 @@ const Contacts = props => {
                                 <dd>
                                     <a href="https://twitter.com/subhmaharana"><i className="icon fa fa-twitter"></i>
                                         @subhmaharana</a>
+                                </dd>
+                                <dt>Dev profile: </dt>
+                                <dd>
+                                    <a href="https://dev.to/subhransu">
+                                        <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Subhransu Maharana's DEV Profile" height="20" width="20" />
+                                        &nbsp; subhransu
+                                    </a>
                                 </dd>
                             </dl>
                         </div>
