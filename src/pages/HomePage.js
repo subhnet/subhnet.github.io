@@ -18,7 +18,17 @@ const HomePage = () => {
 
     let wiproTechStack = [
         { URL: "https://angular.io/", name: "JavaScript" },
-        { URL: "https://angular.io/", name: "JAVA-J2EE" }
+        { URL: "https://angular.io/", name: "JAVA-J2EE" },
+        { URL: "https://angular.io/", name: "SPRING MVC" },
+        { URL: "https://angular.io/", name: "Hibernate" },
+        { URL: "https://angular.io/", name: "JAVA-J2EE" },
+        { URL: "https://angular.io/", name: "Web Services (SOAP)" },
+        { URL: "https://angular.io/", name: "Rest" },
+        { URL: "https://angular.io/", name: "Google Map API" },
+        { URL: "https://angular.io/", name: "Liferay Portal Framework" },
+        { URL: "https://angular.io/", name: "Javascript" },
+        { URL: "https://angular.io/", name: "Oracle" },
+        { URL: "https://angular.io/", name: "Tomcat 7" }
     ]
 
     let adobeTechStack = [
