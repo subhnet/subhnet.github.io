@@ -32,6 +32,7 @@ const HomePage = () => {
     ]
 
     let adobeTechStack = [
+        { URL: "https://angular.io/", name: "Java" },
         { URL: "https://angular.io/", name: "JavaScript" },
         { URL: "https://angular.io/", name: "ReactJS" },
         { URL: "https://angular.io/", name: "NodeJS" },
