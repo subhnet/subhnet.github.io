@@ -71,7 +71,7 @@ const HomePage = () => {
                     >
                         <div className="project-responsibility">
                             <ul>
-                                <span className="project-sub-title black">Marriott Digital Traffic Dashboard</span>
+                                <span className="project-sub-title black">Digital Traffic Dashboard</span>
                                 <li>Build executive-focused analytical dashboards for Adobe's top digital marketing clients. Used technologies such as AngularJS/ReactJS/PHP/MySQL.</li>
                                 <li>Worked closely with costomers and UX teams to build a solution that is meaningful to the costomer.</li>
                                 <li>Developed a custom dashboard for Marriott which shows the real-time digital traffic in Map.</li>
@@ -79,7 +79,7 @@ const HomePage = () => {
                                 <li>Created a page showing various chart (line chart,column chart and Map) to show comparision of traffic to the marriot website.</li>
                                 <li>Developed a PlunkQueue framework which was useful to show map plunks in a smooth flow.</li>
                                 <li>Worked closely with architect and executed the architectural changes that can optimize the performance of the page.</li>
-                                <span className="project-sub-title black">Blueprint Automation Framework</span>
+                                <span className="project-sub-title black">Adobe Analytics Automation Framework</span>
                                 <li>Designed and developed an Automation Framework which automates the setup of Adobe Analytics,Launch and Target for a Website.</li>
                                 <li>Developed both frontend and backend architecture of Microservices using <span className="blue">ExpressJS</span>, <span className="blue">Node.js</span> and <span className="blue">ReactJS</span> Framework.</li>
                                 <li>Containeratized the whole application using <span className="blue">Docker</span> and <span className="blue">Docker-compose</span> and deployed in server.</li>
