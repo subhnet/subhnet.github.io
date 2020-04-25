@@ -56,7 +56,27 @@ const Blogs = props => {
 
                             </div>
                         </li>
+                        <li className="timeline_element talk">
+                            <div className="timeline_element-date">
+                                <time className="timeline_element-date-text">26 Apr 2020</time>
+                            </div>
 
+                            <div className="timeline_element-contents">
+                                <h3 className="talk-title">
+                                    <b>Realtime Chat app using Kafka, SpringBoot, ReactJS, and WebSockets</b>
+                                </h3>
+
+                                <div className="talk-buttons">
+                                    <a target="_blank" href="https://dev.to/subhransu/realtime-chat-app-using-kafka-springboot-reactjs-and-websockets-lc"
+                                        className="button button-red">
+                                        <i className="fa fa-file-text-o"></i>
+                                        Read article
+                            </a>
+
+                                </div>
+
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
