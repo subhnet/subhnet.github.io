@@ -1,15 +1,18 @@
 {
   "name": "subhset.github.io",
   "version": "1.0.0",
+  "homepage": "http://subhset.github.io",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "node deploy.js",
     "start": "webpack-dev-server --open --hot --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Subhransu Maharana",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -31,10 +34,12 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
+    "react-ga": "^2.7.0",
     "react-scroll": "^1.7.16"
   }
 }
