@@ -39,7 +39,7 @@ const HomePage = () => {
         { URL: "https://angular.io/", name: "MySQL" },
         { URL: "https://angular.io/", name: "Docker" },
         { URL: "https://angular.io/", name: "NGINX" },
-        { URL: "https://angular.io/", name: "Apache Tomcat" },
+        { URL: "https://angular.io/", name: "Apache Tomcat 7" },
         { URL: "https://angular.io/", name: "SpringBoot" },
     ]
 
