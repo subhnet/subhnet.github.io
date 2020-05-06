@@ -26,7 +26,7 @@ const Contacts = props => {
 
                                 <dt>LinkedIn:</dt>
                                 <dd>
-                                    <a href="https://www.linkedin.com/in/smaharan/"><i className="icon fa fa-linkedin"></i>
+                                    <a href="https://www.linkedin.com/in/smaharana/"><i className="icon fa fa-linkedin"></i>
                                         Subhransu</a>
                                 </dd>
 
