@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import SkillCard from './card/SkillCard'
 
 const About = props => {
     return (
         <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-9">
                 <h4 className="widget-title">Learn About Me</h4>
                 I am a <b>full stack developer</b> with over <b>five years of experience</b>
                 <ul>
@@ -30,6 +31,9 @@ const About = props => {
                         other various frameworks, libraries and technologies related to them.
                 </li>
                 </ul>
+            </div>
+            <div className="col-md-3">
+                <SkillCard />
             </div>
         </div>
     )
