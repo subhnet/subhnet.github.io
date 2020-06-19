@@ -13,7 +13,7 @@ const About = props => {
                         using <b>Java/J2EE Technologies, Angular,ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
                     JPA.</li>
                     <li><b>Front-end: </b><span className="blue">React (with Hooks)</span>, <span className="blue">Angular 4</span>,Jquery,JavaScript, Typescript</li>
-                    <li><b>Back-end: </b><span className="blue">Java/J2EE</span> Technologies,<span className="blue">Spring</span>, SpringBoot, NodeJS, ExpressJS </li>
+                    <li><b>Back-end: </b><span className="blue">Java/J2EE</span> Technologies,<span className="blue">Spring</span>, SpringBoot, NodeJS, ExpressJS , GraphQL</li>
                     <li>Experience working with Containerization Technologies like <b>Docker</b>, <b>Docker Compose</b></li>
                     <li>Knowlegde in cloud based technologies: <span className="blue">AWS</span> and <span className="blue">GCP</span></li>
                     <li>Having Sound knowledge in OOPs ,Data Structures, and design patterns.</li>
