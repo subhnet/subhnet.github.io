@@ -32,12 +32,14 @@ const HomePage = () => {
     ]
 
     let adobeTechStack = [
+        { URL: "https://angular.io/", name: "NodeJS" },
+        { URL: "https://reactjs.org/", name: "ReactJS" },
+        { URL: "https://www.serverless.com/", name: "Serverless Framework" },
+        { URL: "https://angular.io/", name: "AdobeI/O" },
+        { URL: "https://angular.io/", name: "Docker" },
         { URL: "https://angular.io/", name: "Java" },
         { URL: "https://angular.io/", name: "JavaScript" },
-        { URL: "https://angular.io/", name: "ReactJS" },
-        { URL: "https://angular.io/", name: "NodeJS" },
         { URL: "https://angular.io/", name: "MySQL" },
-        { URL: "https://angular.io/", name: "Docker" },
         { URL: "https://angular.io/", name: "NGINX" },
         { URL: "https://angular.io/", name: "Apache Tomcat 7" },
         { URL: "https://angular.io/", name: "SpringBoot" },
@@ -71,6 +73,11 @@ const HomePage = () => {
                     >
                         <div className="project-responsibility">
                             <ul>
+
+                                <span className="project-sub-title black">3rd-Party GraphQL integration with AEM Commerce and CIF on Adobe I/O Runtime</span>
+                                <li>
+                                Developed a GraphQL I/O Integration layer which enabled the reuse of AEM CIF Cloud Connector and AEM CIF core components by exposing the Magento GraphQL API on top of 3rd Party API.
+                                This integration leverages Adobe's serverless platform, i.e Adobe I/O Runtime.</li>
                                 <span className="project-sub-title black">Digital Traffic Dashboard</span>
                                 <li>Build executive-focused analytical dashboards for Adobe's top digital marketing clients. Used technologies such as AngularJS/ReactJS/PHP/MySQL.</li>
                                 <li>Worked closely with costomers and UX teams to build a solution that is meaningful to the costomer.</li>
