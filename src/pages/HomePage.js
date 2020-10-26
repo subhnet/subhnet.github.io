@@ -34,6 +34,7 @@ const HomePage = () => {
     let adobeTechStack = [
         { URL: "https://angular.io/", name: "NodeJS" },
         { URL: "https://reactjs.org/", name: "ReactJS" },
+        { URL: "https://openwhisk.apache.org/", name: "Apache Openwhisk" },
         { URL: "https://www.serverless.com/", name: "Serverless Framework" },
         { URL: "https://angular.io/", name: "AdobeI/O" },
         { URL: "https://angular.io/", name: "Docker" },
@@ -78,6 +79,7 @@ const HomePage = () => {
                                 <li>
                                     Developed a <span className="blue">GraphQL</span> I/O Integration layer using <span className="blue">NodeJS</span> which enabled the reuse of AEM CIF Cloud Connector and AEM CIF core components by exposing the Magento GraphQL API on top of 3rd Party API.
                                 This integration leverages Adobe's serverless platform, i.e <span className="blue">Adobe I/O Runtime</span>.</li>
+                                <li>Experience in working with <span className="blue">Apache Openwhisk</span></li>
                                 <span className="project-sub-title black">Digital Traffic Dashboard</span>
                                 <li>Build executive-focused analytical dashboards for Adobe's top digital marketing clients. Used technologies such as AngularJS/ReactJS/PHP/MySQL.</li>
                                 <li>Worked closely with costomers and UX teams to build a solution that is meaningful to the costomer.</li>
