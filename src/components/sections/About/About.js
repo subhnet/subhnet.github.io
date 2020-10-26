@@ -7,7 +7,7 @@ const About = props => {
         <div className="row">
             <div className="col-md-9">
                 <h4 className="widget-title">Learn About Me</h4>
-                I am a <b>full stack developer</b> with over <b>five years of experience</b>
+                I am a <b>full stack developer</b> with over <b>six years of experience</b>
                 <ul>
                     <li>Extensive hands-on experience and expertise in design, development and implementation of enterprise products
                         using <b>Java/J2EE Technologies, Angular,ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,

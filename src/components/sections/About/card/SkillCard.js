@@ -6,10 +6,10 @@ const SkillCard = props => {
     const [skills, setSkills] = useState([
         { name: "React", score: 4 },
         { name: 'Java', score: 5 },
+        { name: 'NodeJS', score: 4 },
         { name: 'JavaScript', score: 3 },
         { name: 'Spring', score: 4 },
         { name: 'Angular', score: 3 },
-        { name: 'NodeJS', score: 3 },
         { name: 'Docker', score: 3 },
     ])
 

@@ -32,8 +32,8 @@ const Contacts = props => {
 
                                 <dt>Github:</dt>
                                 <dd>
-                                    <a href="https://github.com/subhset"><i className="icon fa fa-github"></i>
-                                        subhset</a>
+                                    <a href="https://github.com/subhnet"><i className="icon fa fa-github"></i>
+                                        subhnet</a>
                                 </dd>
 
                                 <dt>Facebook:</dt>

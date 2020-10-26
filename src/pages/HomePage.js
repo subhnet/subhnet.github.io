@@ -76,8 +76,8 @@ const HomePage = () => {
 
                                 <span className="project-sub-title black">3rd-Party GraphQL integration with AEM Commerce and CIF on Adobe I/O Runtime</span>
                                 <li>
-                                Developed a GraphQL I/O Integration layer which enabled the reuse of AEM CIF Cloud Connector and AEM CIF core components by exposing the Magento GraphQL API on top of 3rd Party API.
-                                This integration leverages Adobe's serverless platform, i.e Adobe I/O Runtime.</li>
+                                    Developed a <span className="blue">GraphQL</span> I/O Integration layer using <span className="blue">NodeJS</span> which enabled the reuse of AEM CIF Cloud Connector and AEM CIF core components by exposing the Magento GraphQL API on top of 3rd Party API.
+                                This integration leverages Adobe's serverless platform, i.e <span className="blue">Adobe I/O Runtime</span>.</li>
                                 <span className="project-sub-title black">Digital Traffic Dashboard</span>
                                 <li>Build executive-focused analytical dashboards for Adobe's top digital marketing clients. Used technologies such as AngularJS/ReactJS/PHP/MySQL.</li>
                                 <li>Worked closely with costomers and UX teams to build a solution that is meaningful to the costomer.</li>
@@ -118,8 +118,8 @@ const HomePage = () => {
                             </p>
                             <ul>
                                 <li>We built a Table component framework for eTax Application and I worked on developing the UI components focusing on its
-                                    stability ,which made rendering of dynamic
-                                    content customizable. Now,Other teams across BU uses this
+                                stability ,which made rendering of dynamic
+                                content customizable. Now,Other teams across BU uses this
                                     framework .</li>
                                 <li>Implemented <span className="blue">Lazy-Loading</span>, leading to
                                     85% reduction in web app
