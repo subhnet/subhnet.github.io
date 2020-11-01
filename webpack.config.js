@@ -77,7 +77,7 @@ module.exports = {
             template: __dirname + '/src/index.html',
             filename: 'index.html',
             inject: 'body',
-            favicon: "./src/img/profile-icon.png"
+            favicon: "./src/img/profile-icon-1.png"
         })
     ]
 };
