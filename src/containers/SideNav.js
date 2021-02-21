@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, NavItem } from "../components/Navigation/Nav";
 import profile from "../assets/img/profile.jpg";
-import PDF from "../assets/doc/SubhransuMaharana_Resume_5.4.pdf";
+import PDF from "../assets/doc/Subhransu_Resume_FullStack.pdf";
 
 const SideNav = () => {
     return (
