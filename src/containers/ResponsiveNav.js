@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Nav } from '../components/Navigation/Nav'
 import { NavItem } from './../components/Navigation/Nav';
-import PDF from "../assets/doc/SubhransuMaharana_Resume_5.4.pdf";
+import PDF from "../assets/doc/Subhransu_Resume_FullStack.pdf";
 import $ from 'jquery';
 
 const ResponsiveNav = props => {
