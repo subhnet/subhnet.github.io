@@ -1,12 +1,15 @@
 import React from 'react';
 import './style.css';
 import PDF from "../../../assets/doc/Subhransu_Resume_FullStack.pdf";
+import Button from '@bit/tabinda.react-button-animation.animated.button';
 
 const Resume = props => {
     return (
         <div>
             <div>
-                <a className="btn"  href={PDF} target = "_blank"><i className="fa fa-download"> </i> Download My Resume</a>
+                <a href={PDF} target="_blank">
+                    <Button label="Donwload My Resume" />
+                </a>
             </div>
         </div>
     )
