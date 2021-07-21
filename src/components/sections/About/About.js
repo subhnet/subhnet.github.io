@@ -6,13 +6,15 @@ const About = props => {
         <div className="row">
             <div className="col-md-9">
                 <h4 className="widget-title">Learn About Me</h4>
-                I am a passionate and creative full stack developer from india. I hold a Bachelor of technology (B. Tech ) degree in Computer Science and Engineering. I work both on Frontend as well as Backend technologies.
+                I am a passionate and creative full stack developer from india. I hold a Bachelor of technology (B.Tech) degree in Computer Science and Engineering. I work both on Frontend as well as Backend technologies.
+                <br />
+                <br />
                 <ul>
                     <li>Extensive hands-on experience and expertise in design, development and implementation of enterprise products
-                        using <b>Java/J2EE Technologies, Angular, ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
+                        using <b>Java/J2EE</b> Technologies, <b>ReactJS, NodeJS, ExpressJS, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
                         JPA.</li>
                     <li><b>Front-end: </b><span className="blue">React (with Hooks)</span>, <span className="blue">Angular 4</span>,Jquery,JavaScript, Typescript</li>
-                    <li><b>Back-end: </b><span className="blue">Java/J2EE</span> Technologies,<span className="blue">Spring</span>, SpringBoot, NodeJS, ExpressJS , GraphQL</li>
+                    <li><b>Back-end: </b><span className="blue">Java/J2EE</span> Technologies,<span className="blue">Spring, SpringBoot, NodeJS</span>, ExpressJS , GraphQL</li>
                     <li>Knowledge in cloud based technologies: <span className="blue">AWS</span> and <span className="blue">Azure</span></li>
                     <li>Knowledge in <span className="blue"><a href="https://golang.org/">Go Programming Language</a></span></li>
                     <li>Have extensively used a large number of software engineering tools,including Maven,Ant,TFS,git and svn.</li>

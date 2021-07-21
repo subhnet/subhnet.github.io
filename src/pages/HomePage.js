@@ -20,18 +20,18 @@ const AdobeExperience = () => <ul>
     <li>Experience in working with <span className="blue">Apache Openwhisk</span></li>
     <span className="project-sub-title black">Digital Traffic Dashboard</span>
     <li>Build executive-focused analytical dashboards for Adobe's top digital marketing clients. Used technologies such as AngularJS/ReactJS/PHP/MySQL.</li>
-    <li>Worked closely with costomers and UX teams to build a solution that is meaningful to the costomer.</li>
+    <li>Worked closely with costumers and UX teams to build a solution that is meaningful to the costumer.</li>
     <li>Developed a custom dashboard for Marriott which shows the real-time digital traffic in Map.</li>
     <li>Integration with Adobe Analytics Reporting API.</li>
-    <li>Created a page showing various chart (line chart,column chart and Map) to show comparision of traffic to the marriot website.</li>
+    <li>Created a page showing various chart (line chart,column chart and Map) to show comparison of traffic to the client website.</li>
     <li>Developed a PlunkQueue framework which was useful to show map plunks in a smooth flow.</li>
     <li>Worked closely with architect and executed the architectural changes that can optimize the performance of the page.</li>
     <span className="project-sub-title black">Adobe Analytics Automation Framework</span>
     <li>Designed and developed an Automation Framework which automates the setup of Adobe Analytics,Launch and Target for a Website.</li>
     <li>Developed both frontend and backend architecture of Microservices using <span className="blue">ExpressJS</span>, <span className="blue">Node.js</span> and <span className="blue">ReactJS</span> Framework.</li>
-    <li>Containeratized the whole application using <span className="blue">Docker</span> and <span className="blue">Docker-compose</span> and deployed in server.</li>
-    <li>The Automation Framework brought down the Consoluntant Efforts by 90% and Is used across teams.</li>
-    <li>Integration with AdobeIO and JWT Autherization</li>
+    <li>Containerized the whole application using <span className="blue">Docker</span> and <span className="blue">Docker-compose</span> and deployed in server.</li>
+    <li>The Automation Framework brought down the Consultant Efforts by 90% and Is used across teams.</li>
+    <li>Integration with AdobeIO and JWT Authorization</li>
     <span className="project-sub-title black">Survey Tool Engineering Architect Team</span>
     <li>Developed end to end for a survey utility to track the response of customers and generate analysis report.</li>
     <li>Developed the backend in spring-boot and ReactJS as the FrontEnd.</li>
@@ -73,7 +73,7 @@ const FidelityExperience = () => <>
 const WiproExperience = () => (
     <ul>
         <span className="project-sub-title black">Bluedart Website Revamp</span>
-        <li>Was a key contributer to the revamp of the Bluedart website - A shipment application which possess the operations in domestic and
+        <li>Was a key contributor to the revamp of the Bluedart website - A shipment application which possess the operations in domestic and
             international courier services which handled end to end process starting from initiating a courier order,pickup and delivery.</li>
         <li>Provided customer features like finding nearby service station for pickup and delivery (integration with Google API), Transit time,
             scheduling a pickup, booking a shipment and Track a shipment.</li>
