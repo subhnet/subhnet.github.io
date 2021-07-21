@@ -8,7 +8,7 @@ const Banner = props => {
             <div className="banner-overlay"></div>
             <div className="welcome-text">
                 <h2> Hi, I am <span style={{ "color": "#FFE300" }}>Subhransu Maharana</span>,  <img src={handwave} height="35px" /></h2>
-                <h5>a full-stack developer specialized in <br />
+                <h5>a full-stack developer specialized in both<br />
                     <strong>front-end and back-end development.</strong></h5>
             </div>
         </div>

@@ -7,11 +7,11 @@ const About = props => {
         <div className="row">
             <div className="col-md-9">
                 <h4 className="widget-title">Learn About Me</h4>
-                I am a <b>full stack developer</b> with over <b>six years of experience</b>
+                I am a passionate and creative full stack developer from india. I hold a Bachelor of technology (B. Tech ) degree in Computer Science and Engineering. I work both on Frontend as well as Backend technologies.
                 <ul>
                     <li>Extensive hands-on experience and expertise in design, development and implementation of enterprise products
-                        using <b>Java/J2EE Technologies, Angular,ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
-                    JPA.</li>
+                        using <b>Java/J2EE Technologies, Angular, ReactJS, Golang, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
+                        JPA.</li>
                     <li><b>Front-end: </b><span className="blue">React (with Hooks)</span>, <span className="blue">Angular 4</span>,Jquery,JavaScript, Typescript</li>
                     <li><b>Back-end: </b><span className="blue">Java/J2EE</span> Technologies,<span className="blue">Spring</span>, SpringBoot, NodeJS, ExpressJS , GraphQL</li>
                     <li>Experience working with Containerization Technologies like <b>Docker</b>, <b>Docker Compose</b></li>
@@ -19,17 +19,17 @@ const About = props => {
                     <li>Having Sound knowledge in OOPs ,Data Structures, and design patterns.</li>
                     <li>Good Analytics skills and quick Learner.</li>
                     <li>Knowlegde in <span className="blue"><a href="https://golang.org/">Go Programming
-                            Language</a></span></li>
+                        Language</a></span></li>
                     <li>Have extensively used a large number of software engineering tools, including
-                    Maven,
-                    Ant, TFS,git and svn.</li>
+                        Maven,
+                        Ant, TFS,git and svn.</li>
                     <li>I'm eager to use new technologies for the development of applications.
-                </li>
+                    </li>
 
                     <li>
                         My current toolset includes ReactJS,J2EE, SpringBoot, Restful WebServices, Angular, NodeJS TypeScript and all the
                         other various frameworks, libraries and technologies related to them.
-                </li>
+                    </li>
                 </ul>
             </div>
             <div className="col-md-3">
