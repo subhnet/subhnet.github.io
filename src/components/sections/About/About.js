@@ -15,21 +15,22 @@ const About = props => {
                     <li><b>Front-end: </b><span className="blue">React (with Hooks)</span>, <span className="blue">Angular 4</span>,Jquery,JavaScript, Typescript</li>
                     <li><b>Back-end: </b><span className="blue">Java/J2EE</span> Technologies,<span className="blue">Spring</span>, SpringBoot, NodeJS, ExpressJS , GraphQL</li>
                     <li>Experience working with Containerization Technologies like <b>Docker</b>, <b>Docker Compose</b></li>
-                    <li>Knowlegde in cloud based technologies: <span className="blue">AWS</span> and <span className="blue">GCP</span></li>
-                    <li>Having Sound knowledge in OOPs ,Data Structures, and design patterns.</li>
-                    <li>Good Analytics skills and quick Learner.</li>
-                    <li>Knowlegde in <span className="blue"><a href="https://golang.org/">Go Programming
+                    <li>Knowledge in cloud based technologies: <span className="blue">AWS</span> and <span className="blue">Azure</span></li>
+                    <li>Knowledge in <span className="blue"><a href="https://golang.org/">Go Programming
                         Language</a></span></li>
                     <li>Have extensively used a large number of software engineering tools, including
                         Maven,
                         Ant, TFS,git and svn.</li>
+                    
                     <li>I'm eager to use new technologies for the development of applications.
                     </li>
-
-                    <li>
-                        My current toolset includes ReactJS,J2EE, SpringBoot, Restful WebServices, Angular, NodeJS TypeScript and all the
-                        other various frameworks, libraries and technologies related to them.
-                    </li>
+                    <li>Having Sound knowledge in OOPs ,Data Structures, and design patterns.</li>
+                    <li>Proficient with Front End Framework (ReactJS, Angular)</li>
+                    <li>Proficient with Docker and docker-compose</li>
+                    <li>Proficient in building fully automated CI/CD pipelines for code deployment using Github Actions.</li>
+                    <li>Experience with Web Servers and Reverse Proxy Tools such as Nginx</li>
+                    <li>Experience with Relational Databases (MySQL) and NoSQL databases (DynamoDB)</li>
+                    <li>Good Analytics skills and a quick Learner.</li>
                 </ul>
             </div>
             <div className="col-md-3">

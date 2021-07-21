@@ -8,7 +8,7 @@ const Resume = props => {
         <div>
             <div>
                 <a href={PDF} target="_blank">
-                    <Button label="Donwload My Resume" />
+                    <Button label="View My Resume" />
                 </a>
             </div>
         </div>
