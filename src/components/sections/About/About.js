@@ -20,7 +20,7 @@ const About = props => {
                     <li>Having Sound knowledge in OOPs ,Data Structures, and design patterns.</li>
                     <li>Proficient with Front End Framework (ReactJS, Angular)</li>
                     <li>Experience with Containerization Technologies like <b>Docker</b>, <b>Docker Compose</b></li>
-                    <li>Experience with building fully automated CI/CD pipelines for code deployment using Github Actions.</li>
+                    <li>Experience with building fully automated CI/CD pipelines for code deployment using <b>Github Actions</b>.</li>
                     <li>Experience with Web Servers and Reverse Proxy Tools such as Nginx</li>
                     <li>Experience with Relational Databases (MySQL) and NoSQL databases (DynamoDB)</li>
                     <li>Good Analytics skills and a quick Learner.</li>
