@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: subhnet.github.io
-Token: 4aabb7e75bb223d9e89dd8407221320acf4a79a441bc6ae22f95262be51c5122
