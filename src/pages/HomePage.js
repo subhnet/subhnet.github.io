@@ -18,6 +18,8 @@ const AdobeExperience = () => <ul>
         Developed a <span className="blue">GraphQL</span> I/O Integration layer using <span className="blue">NodeJS</span> which enabled the reuse of AEM CIF Cloud Connector and AEM CIF core components by exposing the Magento GraphQL API on top of 3rd Party API.
         This integration leverages Adobe's serverless platform, i.e <span className="blue">Adobe I/O Runtime</span>.</li>
     <li>Experience in working with <span className="blue">Apache Openwhisk</span></li>
+    <li>Responsible for building Automation tools for AEM CM frontend Deployment using Gulp Scripts, Github API, Github Actions, which in turn enabled my teammates
+to reduce the development effort.</li>
     <span className="project-sub-title black">Digital Traffic Dashboard</span>
     <li>Build executive-focused analytical dashboards for Adobe's top digital marketing clients. Used technologies such as AngularJS/ReactJS/PHP/MySQL.</li>
     <li>Worked closely with costumers and UX teams to build a solution that is meaningful to the costumer.</li>
