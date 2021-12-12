@@ -11,6 +11,7 @@ const SkillCard = props => {
         { name: 'Spring', score: 4 },
         { name: 'Angular', score: 3 },
         { name: 'Docker', score: 3 },
+        { name: 'Python', score: 2}
     ])
 
     return (
