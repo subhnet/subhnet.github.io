@@ -32,6 +32,11 @@ const AdobeExperience = () => <ul>
     <li>Containerized the whole application using <span className="blue">Docker</span> and <span className="blue">Docker-compose</span> and deployed in server.</li>
     <li>The Automation Framework brought down the Consultant Efforts by 90% and Is used across teams.</li>
     <li>Integration with AdobeIO and JWT Authorization</li>
+    <span className="project-sub-title black">Data Reprocessing</span>
+    <li>Involved in Data Reprocessing for billions of records in order to cleanse data in Adobe Analytics</li>
+    <li>Creation of Big Data pipelines in Spark on AWS</li>
+    <li>Migrating legacy Apache Pig ETL process to Apache Airflow for scaling and processing higher volumes of data</li>
+    <li>Creation of Custom Solutions and features that are not available OOTB in Adobe Products</li>
     <span className="project-sub-title black">Survey Tool Engineering Architect Team</span>
     <li>Developed end to end for a survey utility to track the response of customers and generate analysis report.</li>
     <li>Developed the backend in spring-boot and ReactJS as the FrontEnd.</li>
