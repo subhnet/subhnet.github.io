@@ -18,9 +18,9 @@
 .dcvOHH {
   width: 100%;
   display: flex;
+  flex-wrap: wrap; /* Ensures items wrap to new line when width is exceeded */
+  justify-content: flex-start; /* Align items to the left */
   flex-direction: column;
-  -moz-box-align: center;
-  align-items: center;
 }
 
 .eyHvrW {
@@ -111,6 +111,9 @@
   letter-spacing: 0.02em;
   line-height: 1rem;
 }
+.skills {
+  margin-right: 10px; /* Adds space between skill name and rating dots */
+}
 
 .skillHeading {
   font-size: 1.25rem;
@@ -125,3 +128,59 @@
   margin-top: 0.3rem;
   font-family: "Helvetica Now", Helvetica, Arial, sans-serif;
 }
+
+
+.EngineerCard__Skill-sc-1wpqjm4-12 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adds space between each skill */
+}
+
+.skills {
+  margin-right: 10px; /* Adds space between skill name and rating dots */
+}
+
+.EngineerCard__Score-sc-1wpqjm4-15 {
+  display: flex;
+  align-items: center;
+}
+
+
+.SkillCard {
+  width: 100%;
+}
+
+.skillHeading {
+  color: darkBlue;
+}
+
+.skillCategories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.category {
+  flex: 1 1 300px; /* Adjust width of each category */
+}
+
+.category h4 {
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+
+
