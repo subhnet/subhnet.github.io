@@ -1,42 +1,26 @@
-import React from 'react'
-import SkillCard from './card/SkillCard'
+import React from 'react';
+import SkillCard from './card/SkillCard';
 
 const About = props => {
     return (
         <div className="row">
             <div className="col-md-9">
                 <h4 className="widget-title">Learn About Me</h4>
-                I am a passionate and creative full stack developer from india. I hold a Bachelor of technology (B.Tech) degree in Computer Science and Engineering. I work both on Frontend as well as Backend technologies.
-                <br />
-                <br />
-                <ul>
-                    <li>Extensive hands-on experience and expertise in design, development and implementation of enterprise products
-                        using <b>Java/J2EE</b> Technologies, <b>ReactJS, NodeJS, ExpressJS, Spring, SpringMVC, Spring-Boot, Restful WebServices, Hibernate</b>,
-                        JPA.</li>
-                    <li><b>Front-end: </b><span className="blue">React (with Hooks)</span>, <span className="blue">Angular 4</span>,Jquery,JavaScript, Typescript</li>
-                    <li><b>Back-end: </b><span className="blue">Java/J2EE</span> Technologies,<span className="blue">Spring, SpringBoot, NodeJS</span>, ExpressJS , GraphQL</li>
-                    <li>Knowledge in cloud based technologies: <span className="blue">AWS</span> and <span className="blue">Azure</span></li>
-                    <li>Knowledge in <span className="blue"><a href="https://golang.org/">Go Programming Language</a></span></li>
-                    <li>Have extensively used a large number of software engineering tools,including Maven,Ant,TFS,git and svn.</li>
-                    <li>I'm eager to use new technologies for the development of applications.</li>
-                    <li>Having Sound knowledge in OOPs ,Data Structures, and design patterns.</li>
-                    <li>Proficient with Front End Framework (ReactJS, Angular)</li>
-                    <li>Experience with Containerization Technologies like <b>Docker</b>, <b>Docker Compose</b></li>
-                    <li>Experience with building fully automated CI/CD pipelines for code deployment using <b>Github Actions</b>.</li>
-                    <li>Experience with Web Servers and Reverse Proxy Tools such as Nginx</li>
-                    <li>Experience with Relational Databases (MySQL) and NoSQL databases (DynamoDB)</li>
-                    <li>Good Analytics skills and a quick Learner.</li>
-                </ul>
+                <p>Hi, I'm <strong>Subhransu Maharana</strong>, a dedicated <strong>Full Stack Engineer</strong> with over <strong>9 years</strong> of experience in developing innovative and efficient web applications. Currently, I hold the position of <strong>Senior Application Engineer</strong> at <strong>Adobe Systems</strong>, where I leverage my expertise to build and optimize solutions for top digital marketing clients.</p>
+                <p>My journey in the tech world began with a deep interest in software development, which led me to earn a <strong>B.Tech in Computer Science and Engineering</strong> from <strong>VSSUT, Burla</strong>. Over the years, I have honed my skills in both front-end and back-end development, working with a diverse range of technologies including <strong>JavaScript, ReactJS, Node.js, Java, Python</strong>, and Big Data technologies like <strong>Hadoop</strong> and <strong>PySpark</strong>.</p>
+                <p>At <strong>Adobe</strong>, I've had the opportunity to work on transformative projects, automate complex processes, and contribute to the development of next-generation applications. I am particularly proud of my work in automating client onboarding processes and building executive-focused analytics dashboards. My ability to design and recommend architecture for <strong>Gen AI-based initiatives</strong> highlights my knack for innovation and forward-thinking.</p>
+                <p>In previous roles, I've successfully led the upgrade of codebases, developed robust web services, and integrated complex APIs. My experience spans across various industries, giving me a unique perspective and the ability to adapt to different technical challenges.</p>
+                <p>Beyond my technical skills, I am passionate about mentoring junior engineers and fostering a collaborative work environment. I believe in the importance of maintaining high coding standards and continuously improving through learning and knowledge sharing.</p>
+                <p>Outside of work, I enjoy exploring new technologies, participating in hackathons, and writing technical blogs. I'm always eager to learn and grow, both professionally and personally.</p>
+                <p>Feel free to explore my portfolio to see the projects I've worked on and the impact I've made. If you'd like to get in touch, please visit the <strong>Contact</strong> section.</p>
             </div>
             <div className="col-md-3">
                 <SkillCard />
             </div>
         </div>
-    )
+    );
 }
 
-About.propTypes = {
+About.propTypes = {};
 
-}
-
-export default About
+export default About;
