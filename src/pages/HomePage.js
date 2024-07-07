@@ -13,6 +13,10 @@ import Auxilary from './../Layout/Auxilary';
 import Resume from './../components/sections/Resume/Resume';
 
 const AdobeExperience = () => <ul>
+    <span className="project-sub-title black">D365-ACS-Connector</span>
+    <li>Developed and maintained a connector that syncs data between D365 and Adobe Campaign. This connector allows users to sync contacts, custom entities between the two platforms with ease.</li>
+    <li>Worked on building multiple modules, improving existing features and adding new ones.</li>
+    <li>Key Technologies/platform used: </li>
     <span className="project-sub-title black">3rd-Party GraphQL integration with AEM Commerce and CIF on Adobe I/O Runtime</span>
     <li>
         Developed a <span className="blue">GraphQL</span> I/O Integration layer using <span className="blue">NodeJS</span> which enabled the reuse of AEM CIF Cloud Connector and AEM CIF core components by exposing the Magento GraphQL API on top of 3rd Party API.
